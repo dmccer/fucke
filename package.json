@@ -20,6 +20,7 @@
         "console-colorjs": "*",
         "q": "*",
         "portfinder": "*",
-        "uglify-js": "1.3.4"
+        "uglify-js": "1.3.4",
+        "watch": "*"
 	}
 }
