@@ -1,0 +1,1 @@
+node.exe "%~dp0\..\lib\cli.js" %*
