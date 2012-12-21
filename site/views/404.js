@@ -1,0 +1,1 @@
+define(function () { return "<link rel=\"stylesheet\" href=\"/style.css\" /><h1>404: Not Fount</h1><p>Sorry we can't find <%= url %>!</p><<p>Test for watch!</p>"; });

@@ -1,0 +1,1 @@
+define(function () { return "<link rel=\"stylesheet\" href=\"/style.css\" /><h1>500: Internal Server Error!</h1><p>Looks like something blew up!</p>"; });
