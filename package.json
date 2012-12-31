@@ -1,26 +1,28 @@
 {
-	"name": "fucker",
-	"description": "Currently, just for finance system!",
-	"version": "0.0.1",
-	"author": "Yunhua.xiao <dmccer@gmail.com>",
+    "name": "fucker",
+    "description": "Currently, just for finance system!",
+    "version": "0.0.1",
+    "author": "Yunhua.xiao <dmccer@gmail.com>",
     "engine": ">=0.8",
-    "bin": { "fucker": "./bin/fucker" },
-	"dependencies": {
-		"commander": "~1",
-        "underscore": "",        
+    "bin": {
+        "fucker": "./bin/fucker"
+    },
+    "dependencies": {
+        "commander": "~1",
+        "underscore": "",
         "connect": "*",
         "wrench": "1.3.9",
         "mongodb": "",
         "express": "3.x",
-		"ejs": "0.x",
-		"jade": "0.x",
-		"clean-css": "*",
-		"jsftp": "*",
-		"next.js": "~1",
+        "ejs": "0.x",
+        "jade": "0.x",
+        "clean-css": "*",
+        "jsftp": "*",
+        "next.js": "~1",
         "console-colorjs": "*",
         "q": "*",
         "portfinder": "*",
         "uglify-js": "1.3.4",
         "watch": "*"
-	}
+    }
 }
