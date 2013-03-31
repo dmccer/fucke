@@ -28,9 +28,6 @@ if (!module.parent) {
 	app.use(express.logger('dev'));
 }
 
-// 设置静态文件位置
-app.use(express.static(__dirname + '/public'));
-
 // 启用session
 app.use(express.cookieParser('some secret here'));
 app.use(express.session());
@@ -38,6 +35,15 @@ app.use(express.session());
 // 解析请求正文
 app.use(express.bodyParser());
 // app.use(express.jsonParser());
+
+app.use(function (req, res, next) {
+	if (req.path === '/line.png') {
+		require('./lib/err-collect')(req, res);
+	}
+});
+
+// 设置静态文件位置
+app.use(express.static(__dirname + '/public'));
 
 // expose the 'messages' local variable when views are rendered
 app.use(function (req, res, next) {
@@ -77,6 +83,6 @@ app.use(function (req, res, next) {
 });
 
 if (!module.parent) {
-	app.listen(8888);
-	console.log('\n listening on port 8888!\n');
+	app.listen(9999);
+	console.log('\n listening on port 9999!\n');
 }

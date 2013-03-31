@@ -21,6 +21,8 @@
         "q": "*",
         "portfinder": "*",
         "uglify-js": "1.3.4",
-        "watch": "*"
+        "watch": "*",
+        "request": "*",
+        "clean-css": "*"
 	}
 }
