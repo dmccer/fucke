@@ -1,4 +1,16 @@
 {
+<<<<<<< HEAD
+	"name": "fucker",
+	"description": "Currently, just for finance system!",
+	"version": "0.0.1",
+	"author": "Yunhua.xiao <dmccer@gmail.com>",
+    "engine": ">=0.8",
+    "bin": "./bin/fucker",
+    "main": "./index",
+	"dependencies": {
+		"commander": "~1",
+        "underscore": "",        
+=======
     "name": "fucker",
     "description": "Currently, just for finance system!",
     "version": "0.0.1",
@@ -11,25 +23,38 @@
     "dependencies": {
         "commander": "~1",
         "underscore": "",
+<<<<<<< HEAD
 =======
     "bin": "./bin/fucker",
 	"dependencies": {
 		"commander": "~1",
         "underscore": "",        
 >>>>>>> dev
+=======
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
+>>>>>>> 30568aa419e4df846adfd3faf25e96c6d045e478
         "connect": "*",
         "wrench": "1.3.9",
         "mongodb": "",
         "express": "3.x",
+<<<<<<< HEAD
+		"ejs": "0.x",
+		"jade": "0.x",
+		"clean-css": "*",
+		"jsftp": "*",
+		"next.js": "~1",
+=======
         "ejs": "0.x",
         "jade": "0.x",
         "clean-css": "*",
         "jsftp": "*",
         "next.js": "~1",
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
         "console-colorjs": "*",
         "q": "*",
         "portfinder": "*",
         "uglify-js": "1.3.4",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "watch": "*"
     }
@@ -40,4 +65,15 @@
         "scp2": "latest"
 	}
 >>>>>>> dev
+=======
+        "watch": "*",
+        "request": "*",
+        "clean-css": "*",
+        "scp2": "latest"
+	}
+=======
+        "watch": "*"
+    }
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
+>>>>>>> 30568aa419e4df846adfd3faf25e96c6d045e478
 }
