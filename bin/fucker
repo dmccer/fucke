@@ -1,11 +1,2 @@
 #!/usr/bin/env node
-<<<<<<< HEAD
 require(require('path').resolve(__dirname, '../lib/cli.js'))
-=======
-<<<<<<< HEAD
-require(require('path').resolve(__dirname, '../lib/cli.js'))
-=======
-
-require(require('path').resolve(__dirname, '../lib/cli.js'));
->>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
->>>>>>> 30568aa419e4df846adfd3faf25e96c6d045e478
