@@ -4,12 +4,19 @@
     "version": "0.0.1",
     "author": "Yunhua.xiao <dmccer@gmail.com>",
     "engine": ">=0.8",
+<<<<<<< HEAD
     "bin": {
         "fucker": "./bin/fucker"
     },
     "dependencies": {
         "commander": "~1",
         "underscore": "",
+=======
+    "bin": "./bin/fucker",
+	"dependencies": {
+		"commander": "~1",
+        "underscore": "",        
+>>>>>>> dev
         "connect": "*",
         "wrench": "1.3.9",
         "mongodb": "",
@@ -23,6 +30,14 @@
         "q": "*",
         "portfinder": "*",
         "uglify-js": "1.3.4",
+<<<<<<< HEAD
         "watch": "*"
     }
+=======
+        "watch": "*",
+        "request": "*",
+        "clean-css": "*",
+        "scp2": "latest"
+	}
+>>>>>>> dev
 }
