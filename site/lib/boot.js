@@ -51,11 +51,14 @@ module.exports = function (parent, options) {
 				case 'add':
 					method = 'post';
 					path = '/' + name + '/add';
+<<<<<<< HEAD
 					break;
 				case 'collect':
 					method = 'get';
 					path = '/' + name + '/collect';
 					break;
+=======
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
 				case 'index':
 					method = 'get';
 					path = '/';

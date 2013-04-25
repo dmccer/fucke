@@ -28,6 +28,12 @@ if (!module.parent) {
 	app.use(express.logger('dev'));
 }
 
+<<<<<<< HEAD
+=======
+// 设置静态文件位置
+app.use(express.static(__dirname + '/public'));
+
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
 // 启用session
 app.use(express.cookieParser('some secret here'));
 app.use(express.session());
@@ -36,6 +42,7 @@ app.use(express.session());
 app.use(express.bodyParser());
 // app.use(express.jsonParser());
 
+<<<<<<< HEAD
 app.use(function (req, res, next) {
 	if (req.path === '/line.png') {
 		require('./lib/err-collect')(req, res);
@@ -45,6 +52,8 @@ app.use(function (req, res, next) {
 // 设置静态文件位置
 app.use(express.static(__dirname + '/public'));
 
+=======
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
 // expose the 'messages' local variable when views are rendered
 app.use(function (req, res, next) {
 	var msgs = req.session.messages || [];
@@ -83,6 +92,11 @@ app.use(function (req, res, next) {
 });
 
 if (!module.parent) {
+<<<<<<< HEAD
 	app.listen(9999);
 	console.log('\n listening on port 9999!\n');
+=======
+	app.listen(8888);
+	console.log('\n listening on port 8888!\n');
+>>>>>>> 94dc36a741fe479087ed52be7e58077f2de757e8
 }
