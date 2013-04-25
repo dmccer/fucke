@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"author": "Yunhua.xiao <dmccer@gmail.com>",
     "engine": ">=0.8",
-    "bin": { "fucker": "./bin/fucker" },
+    "bin": "./bin/fucker",
 	"dependencies": {
 		"commander": "~1",
         "underscore": "",        
