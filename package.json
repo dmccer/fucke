@@ -24,6 +24,7 @@
         "watch": "*",
         "request": "*",
         "clean-css": "*",
-        "ssh2": "latest"
+        "ssh2": "latest",
+        "async": "latest"
 	}
 }
